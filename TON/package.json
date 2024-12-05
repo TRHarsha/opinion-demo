@@ -1,0 +1,52 @@
+{
+  "name": "ton-starter-twa-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://alefmanvladimir.github.io/my-twa",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "configbot": "node configure.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.0.0",
+    "@clerk/clerk-react": "^5.18.0",
+    "@orbs-network/ton-access": "^2.3.3",
+    "@tanstack/react-query": "^4.24.4",
+    "@tonconnect/ui-react": "^1.0.0-beta.6",
+    "@twa-dev/sdk": "^6.7.0",
+    "appwrite": "^16.0.2",
+    "axios": "^1.7.8",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "gh-pages": "^5.0.0",
+    "is-mobile": "^3.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^18.3.1",
+    "react-router-dom": "^7.0.2",
+    "styled-components": "^5.3.6",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "use-local-storage": "^2.3.6",
+    "vite-plugin-node-polyfills": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^3.0.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2",
+    "vite": "^4.0.4"
+  }
+}
