@@ -1,0 +1,3 @@
+[submodule "TON"]
+	path = TON
+	url = https://github.com/PritamP20/TON.git
